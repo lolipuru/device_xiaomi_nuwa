@@ -3171,6 +3171,10 @@ odm/firmware/st_fts_m3.ftb
 odm/firmware/stm_fts_production_limits.csv
 
 # Touch Feature
+odm/bin/toucheventcheck
+odm/bin/touch_raw
+odm/bin/touch_report
+odm/bin/touchsensor
 odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
 odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml

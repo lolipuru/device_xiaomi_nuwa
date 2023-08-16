@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/nuwa
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -105,7 +105,7 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVIC
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/vendor/,$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules) \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/ramdisk/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules) \
-    $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/system/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/5.15.41)
+    $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilts/modules/system/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/5.15.74)
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true

@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 
 # SHIPPING API
 BOARD_API_LEVEL := 33
